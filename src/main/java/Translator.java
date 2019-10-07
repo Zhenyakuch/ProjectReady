@@ -44,12 +44,10 @@
          decimal = (numericalValue - (hundreds * 100)) / 10;
          units = numericalValue % 10;
 
-
          numText = "";
          if (decimal == 1) numText = Dictionary.sampleText[2][hundreds] + Dictionary.sample11to19[units];
          else
              numText = Dictionary.sampleText[2][hundreds] + Dictionary.sampleText[1][decimal] + Dictionary.sampleText[0][units];
-
          if (index == 2) {
              if (units == 1 && decimal != 1) numText = numText + "на ";
              else if (units == 2 & decimal != 1) numText = numText + "е ";
@@ -60,7 +58,6 @@
                  numText = numText + "а ";
              } else if (units != 0 & decimal != 1) numText = numText + " ";
          }
-
          indexA = 0;
          if (numericalValue != 0) {
              if (units == 0 || decimal == 1) indexA = 1;

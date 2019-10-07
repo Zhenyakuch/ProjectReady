@@ -10,7 +10,6 @@ import static junit.framework.TestCase.assertTrue;
 
 public class AnalyserTest
 {
-
     private Map<Integer, String> values = new HashMap<>();
     private Random random;
 

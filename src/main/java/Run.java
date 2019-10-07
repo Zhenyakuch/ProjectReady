@@ -5,7 +5,7 @@ public class Run {
         long number;
         Scanner scanner = new Scanner(System.in);
         do {
-            System.out.print("Введите целое число в промежутке  от -999 999 999 до 999 999 999, для выхода введите 0: ");
+            System.out.print("Введите целое число в промежутке от -999 999 999 до 999 999 999, для выхода введите 0: ");
             number = scanner.nextInt();
             System.out.println(Translator.translateToString(number));
         } while (number != 0);
