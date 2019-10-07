@@ -13,7 +13,7 @@ public class AnalyserTest
 
     private Map<Integer, String> values = new HashMap<>();
     private Random random;
-    
+
     @Test
     public void test() {
         final ArrayList<Integer> numbers = new ArrayList<>(values.keySet());
