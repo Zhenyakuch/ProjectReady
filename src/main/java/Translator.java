@@ -25,7 +25,7 @@
          if (number < 0) {
              numText = "минус ";
              numberA = -numberA;
-         } //делаем позитивное значение number
+         }
 
          billion = (int) (numberA / 1000000000);
          million = (int) (numberA - (billion * 1000000000)) / 1000000;
